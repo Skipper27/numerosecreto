@@ -59,7 +59,7 @@ function generarNumeroSecreto() {
 
 function condicionesIniciales() {
     asignarTextoElemento('h1','Adivina el número de 1 al 10!');
-    asignarTextoElemento('p2','Tienes 3 intentos');
+    asignarTextoElemento('h2','Tienes 3 intentos');
     asignarTextoElemento('p',`Escribe un número del 1 al ${numeroMaximo}`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 0; // Cambiado a 0 para que se inicie correctamente
